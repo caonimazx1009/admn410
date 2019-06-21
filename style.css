@@ -1,0 +1,275 @@
+/*for all page*/
+*{
+   margin: 0;
+   padding: 0;
+}
+.body{
+    mid-width: 1280px;
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+   height: 100px;
+}
+.brand{
+   float: left;
+   margin-left: 150px;
+}
+.brand img{
+     height: 100px;
+     vertical-align: middle;
+     margin-left: 10px;
+}
+.nav{
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    height: 60px;
+    width: 150px;
+    line-height: 50px;
+    border-bottom: 2px solid #fff;
+}
+.nav a{
+    text-decoration: none;
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+.nav a:link,.nav a:visited{
+     color: #6fc9e8;
+}
+.nav a:hover,.nav a:active{
+      color: #000102;
+      border-bottom: 3px;solid: #3c5fc9;
+}
+.tittle{
+    border-bottom: 2px solid #2178c4;
+    float: left;
+    width: 100px;
+    background-color: rgba(50,50,50,0.2);
+}
+.title h1{
+   padding: 10px 0;
+   font-size: 30px;
+   font-weight: 100px;
+   text-align: center;
+   font-family: "Times New Roman";
+   color: #3c5fc9;
+}
+/*for home page*/
+.home_main{
+    height: 700px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #3c3c3c;
+}
+.home_main_content{
+     height: 700px;
+     padding-top: 170px;
+}
+.home_main_content h1{
+      font-size: 80px;
+      font-family: "Savoye LET";
+      color: #e28c6a;
+      margin-left: 100px;
+}
+.home_main_content p{
+      font-size: 30px;
+      font-family: "Chalkduster";
+      color: #cc6c47;
+      margin-left: 115px;
+      margin-top: 40px;
+}
+.history{
+   width: 60%;
+   margin: 0 auto;
+   padding: 15px;
+}
+.history h1{
+      font-size: 40px;
+      font-family: "Trebuchet MS";
+      color: #3c3d3d;
+      margin-top: 50px;
+      text-align: center;
+}
+.history hr{
+   width: 100px;
+   margin: 0 auto;
+   margin-bottom: 15px;
+   margin-top: 10px;
+   border: 2px solid #0c75cc;
+}
+.history p{
+   font-family: "Microsoft YaHei";
+   font-size: 25px;
+   text-align: center;
+   text-indent: 28px;
+}
+.footer {
+   border-top: 4px solid #73C6B6;
+   border-bottom: 4px solid #73C6B6;
+   float: left;
+   width: 100%;
+   padding: 5px 0;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.footer h1{
+   font-size: 45px;
+   font-family: "SignPainter";
+   color: #1C2833;
+   margin: auto;
+}
+
+.employee h2{
+   font-size: 50px;
+   margin-top: 100px;
+   font-family: "Marker Felt";
+   color: #cc720c;
+   
+}
+.employee hr{
+   width: 300px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-left: 0;
+}
+.employee{
+   width: 80%;
+   margin: 0 auto;
+   height: 650px;
+}
+.product{
+   width: 80%;
+   margin: 0 auto;
+   height: 550px;
+}
+.product h2{
+     font-size: 50px;
+     margin-top: 100px;
+     text-align: center;
+     font-family: "Marker Felt";
+}
+.product hr{
+   width: 50px;
+   margin: 0 auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border: 2px solid #fffff;
+}
+.product_photo_size{
+     width: 250px;
+     height: 400px;
+     padding: 10px;
+}
+.left_photo{
+   width: 30%;
+   float: left;
+   border: 1px solid #fffff;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-right: 10px;
+   font-family: "Impact";
+}
+.middle_photo{
+   width: 30%;
+   float: left;
+   border: 1px solid #fffff;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-right: 10px;
+   font-family: "Impact";
+}
+.right_photo{
+   width: 30%;
+   float: left;
+   border: 1px solid #fffff;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-right: 10px;
+   font-family: "Impact";
+}
+.photo_size{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+.supplies_photo_size{
+     width: 250px;
+     height: 350px;
+     padding: 10px;
+
+}
+
+.policy{
+   width: 90%;
+   margin: 0 auto;
+}
+.policy h1{
+   font-size: 70px;
+   margin-top: 100px;
+   font-family: "Noteworthy";
+   font-color: #27a3d8;
+}
+.policy h2{
+   font-size: 50px;
+   margin-top: 100px;
+   font-family: "Noteworthy";
+   font-color: #27a3d8;
+}
+.policy h3{
+   font-size: 30px;
+   margin-top: 100px;
+   font-family: "Noteworthy";
+   font-color: #27a3d8;
+}
+.policy hr{
+   width: 300px;
+   margin: 0 auto;
+   margin-bottom: 15px;
+   margin-top: 10px;
+   border: 2px solid #73C6B6;
+   margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
